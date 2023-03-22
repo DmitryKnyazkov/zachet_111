@@ -11,6 +11,7 @@ def counting(n, m):
     list_people.pop(cycles-1)
     print(list_people)
 
+
     return counting(n-1, m)
 
 
@@ -21,3 +22,4 @@ if __name__ == "__main__":
     print(counting(people, slogi))
 
 
+#ygfugf
