@@ -9,7 +9,6 @@ def counting(n: int, m: int):
     if len(list_people) == 1:
         return list_people[0]
 
-
     print(list_people)
     a = len(list_people)
     cycles = m % a
