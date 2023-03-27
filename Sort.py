@@ -1,6 +1,11 @@
 import random
 
-def sort_sort(list_):
+def sort_sort(list_: list) -> list:
+    """
+    сортирует список
+    :param list_: список
+    :return: отсортированный список
+    """
     if not list_:
         return list_
     max_ = max(list_)

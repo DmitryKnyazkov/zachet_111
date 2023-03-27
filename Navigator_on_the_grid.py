@@ -19,7 +19,6 @@ def dijkstra_algo(g: nx.DiGraph, starting_node: Hashable) -> Mapping[Hashable, U
 
     return coasts
 
-
 # if __name__ == '__main__':
 #     graph = nx.DiGraph()
 #     graph.add_weighted_edges_from([
